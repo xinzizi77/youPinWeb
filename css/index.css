@@ -1,0 +1,290 @@
+html {
+    /* overflow-x: hidden; */
+}
+/*banner*/
+body{
+    background: url("../images/bg.PNG") repeat-y;
+    background-size: 100% 100%;
+    height: 1500px;
+    font-family: "Hiragino Sans GB", "Microsoft Yahei", "WenQuanYi Micro Hei", SimSun, Tahoma, Arial, Helvetica, STHeiti;
+}
+#banner{
+    position: absolute;
+    top:80px;
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+    background: url("../images/adult.jpg") no-repeat;
+    background-size:100% 100% ;
+    /*-webkit-filter: blur(5px); !* Chrome, Safari, Opera *!*/
+    /*filter: blur(5px);*/
+    /*opacity: 0.6;*/
+}
+.concent{
+    width: 100%;
+    height: 1500px;
+    background:rgba(0,0,0,0.2) ;
+    top: 80px;
+    position: absolute;
+}
+.concent .search{
+    width: 544px;
+    height: 50px;
+    margin: 350px auto;
+    /*background: red;/*/
+}
+
+.search .city{
+    float: left;
+    width:100px;
+    height: 50px;
+    border-top: 2px solid slategray;
+    border-bottom: 2px solid slategray;
+    border-left: 2px solid slategray;
+    background: rgba(0,0,0,0.3);
+}
+#chengshi{
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    outline: none;
+    cursor: pointer;
+    float: left;
+    background: rgba(0,0,0,0);
+}
+.city i{
+    width: 19px;
+    height: 50px;
+    line-height: 30px;
+    margin: 10px auto;
+    color: #fff;
+    float: left;
+}
+
+.search .search-box{
+    width: 340px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    float: left;
+    margin-left: 10px;
+    color: #FFFFFF;
+    border-top: 2px solid slategray;
+    border-bottom: 2px solid slategray;
+    border-left:none;
+    border-right: none;
+    background: rgba(0,0,0,0.3);
+    outline: none;
+}
+.search-box::-webkit-input-placeholder {  
+    color: #ccc;  
+}  
+.search-box::-moz-input-placeholder {  
+    color: #ccc;  
+}  
+.search-box::-ms-input-placeholder {  
+    color: #ccc;  
+}  
+
+.search .search-button{
+    width: 100px;
+    height: 54px;
+    line-height: 50px;
+    font-size: 20px;
+    float: left;
+    border: 2px solid slategray;
+    background: #57bc90;
+    cursor: pointer;
+    color: #FFFFFF;
+    outline: none;
+}
+/*---------------------------------------------------*/
+.cities{
+    width: 520px;
+    height: 250px;
+    background: white;
+    margin: 50px auto;
+    position: absolute;
+    border: 1px solid #57bc90;
+    display: none;
+}
+.cities ul{
+    list-style: none;
+}
+.cities ul li{
+    line-height: 40px;
+    height: 40px;
+    position: relative;
+}
+.cities ul li p{
+    width: 100px;
+    margin-left: 10px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    float: left;
+}
+.cities ul li dl{
+    width: 380px;
+    float: left;
+}
+.cities ul li dl dd{
+    float: left;
+    margin-right: 20px;
+}
+.cities ul li dl dd a{
+    text-decoration: none;
+    color: black;
+}
+.cities ul li dl dd a:hover{
+    color: #57bc90;
+}
+/*-----------------------------------------------------------------*/
+.job{
+    width: 100%;
+    height: 1300px;
+    background: #FFFFFF;
+}
+.job-box{
+    width: 1260px;
+    height: auto;
+    margin: 30px auto;
+    padding-top: 30px;
+}
+.job-box h1{
+    font-size: 24px;
+    width: 160px;
+    height: 30px;
+    color: #000000;
+    line-height: 30px;
+    text-align: center;
+    margin: 30px auto;
+}
+.job-box .jieshi{
+    font-size: 17px;
+    width: 195px;
+    height: 30px;
+    color: #A5A5AF;
+    line-height: 30px;
+    margin: 30px auto;
+}
+.work{
+    width: 1260px;
+    padding: 0 50px ;
+}
+.work-box{
+    width: 350px;
+    height: 450px;
+    margin: 40px 20px;
+    float: left;
+    background: #F2F5FB;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+}
+.work-box:hover{
+    box-shadow: 0 0 20px #888888;
+    background: #FFFFFF;
+    transition-duration: 0.5s;
+    /*transform: scale(1.03) ;*/
+}
+.work-box img{
+    width: 350px;
+    height: 250px;
+    /*margin: 10px 10px;*/
+
+    border-radius:5px ;
+    /*border: 1px solid #A5A5AF;*/
+}
+.work-box .yinying{
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+}
+.work-box h2{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0;
+    color: #FFFFFF;
+    z-index: 2;
+    position: absolute;
+    top:100px;
+    font-family: "华文仿宋";
+    text-align: center;
+}
+.work-box ul{
+    list-style: none;
+    width: 100%;
+    height: auto;
+}
+.work-box ul li{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+.work-box ul li a{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    /*text-indent: 1em;*/
+    color: slategray;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.work-box ul li a:hover{
+    color: #000000;
+}
+
+.button {
+    border-radius: 5px;
+    background-color:  rgba(12,207,135,0.9);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    height: 45px;
+    line-height: 45px;
+    width: 200px;
+    margin:20px 74px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button a {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.button a:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right:10px;
+    margin-right: 50px;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: rgba(12, 217, 143, 0.8);
+
+}
+.button:hover a {
+    padding-right: 25px;
+}
+
+.button:hover a:after {
+    opacity: 1;
+    right: 0;
+}
+
+

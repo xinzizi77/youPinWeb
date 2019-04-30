@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+#header{
+    top:0;
+}
+.about{
+    width: 75%;
+    background: #f5f5f5;
+    font-size: 1.4rem;
+    margin: 12rem auto;
+    padding:4rem 5%;
+}
+.about p{
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    color: rgb(82, 81, 81);
+}
+.about p text{
+    font-size: 1.8rem;
+    color: #525252;
+    font-weight: bold;
+    line-height: 4rem;    
+}
+.about span{
+    font-size: 1.6rem;
+}
+a{
+    font-size: 1.6rem;
+}
+.about p:first-child{
+    font-size: 3rem;
+    height: 7rem;
+    line-height: 7rem;
+    text-align: center;
+    color: rgb(82, 81, 81);
+}
+.about .data{
+    text-align: right;
+    color: rgb(82, 81, 81);    
+}
+footer{
+    width: 75%;
+    height: 8rem;
+    background: #f5f5f5;
+    padding:2rem 10% 2rem 15%;
+}
+footer .fLeft{
+    float: left;
+    width: 72%;
+}
+footer .fRight{
+    float: left;
+    width: 23%;
+    margin-left: 5%;
+    /* text-align: right; */
+}
+footer .fRight textarea{
+    width: 68%;
+    height: 5rem;
+}
+footer .fRight button{
+    float: right;
+    width: 26%;
+    height: 3rem;
+    border: 0;
+    margin-top:2rem;
+    /* background: #f57900; */
+}
+footer .fRight button:hover{
+    cursor: pointer;
+}
+footer .kuai{
+    width: 33%;
+    float: left;
+}
+footer p{
+    font-size: 1.6rem;
+    height: 3rem;
+}
+footer .fRight p{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(82, 81, 81);
+    /* letter-spacing: 1.4rem; */
+}
+footer ul li{
+    height: 2.5rem;
+    font-size: 1.2rem;
+    list-style: none;
+    color: #7a7373;
+    
+}
+footer ul li a:hover{
+    text-decoration: underline;
+}
+footer a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.4rem;
+}

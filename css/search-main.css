@@ -1,0 +1,338 @@
+#header{
+    position: relative;
+    height: 80px;
+}
+.search-main{
+    height: auto;
+    position: absolute;
+    width: 100%;
+    background:#eeeeee;
+}
+#main-bg{
+    width:100%;
+    height: 180px;
+    margin: 0 auto;
+    background: #57bc90;
+}
+#header{
+    border-bottom: none;
+    box-shadow:none;
+}
+/*--------------------------------------------------------------------------------------------*/
+.job-box{
+    width: 1178px;
+    height: 150px;
+    padding: 20px 10px;
+    margin: 0 auto;
+    /*border: 1px solid #c6c6d1;*/
+}
+.job-box .box-main{
+    float: left;
+    width: 900px;
+    height: auto;
+    list-style: none;
+    /*background: #57bc90;*/
+}
+.box-main .job-name{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: text;
+    /*color: #5F8DC9;*/
+    color: #FFFFFF;
+}
+.box-main .job-txt{
+    color: #f4f4f4;
+    height: 25px;
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 16px;
+}
+.box-main .job-txt span{
+    color: #cdcdcd;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+}
+.box-main .money{
+    width: 180px;
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    color: #ff5201;
+}
+.box-main .weal{
+    width: 100%;
+    word-break: break-all;
+    height: auto;
+    margin-top: 10px;
+}
+.box-main .weal .dl{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px #D4D4D4 solid;
+    background-color: #FFFFFF;
+    margin-right: 15px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    border-radius: 5px;
+    color: #666666;
+}
+.job-right{
+    float: left;
+}
+
+.company{
+    width: 278px;
+    height: 40px;
+    line-height: 40px;
+    color: #525252;
+    font-size: 18px;
+    /*background: #57bc90;*/
+    text-align: center;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.company-main{
+    text-align: center;
+    margin: 15px auto;
+    width:120px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px #FF5C00 solid;
+    border-radius: 6px;
+    font-size: 15px;
+    background: #ffffff;
+    color: #FF5C00;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.company-main a{
+    display: block;
+    text-decoration: none;
+    color: #FF5C00;
+}
+.company-main a:hover{
+    background: #FF5C00;
+    color: white;
+}
+.company-main-click{
+    text-align: center;
+    margin: 15px auto;
+    width:120px;
+    height: 38px;
+    line-height: 38px;
+    color: #ffffff;
+    border: 1px #FF5C00 solid;
+    border-radius: 6px;
+    font-size: 15px;
+    background: #FF5C00;
+    cursor: pointer;
+}
+.company-main:hover{
+    background: #FF5C00;
+    color: white;
+}
+
+/*----------------------------------left------------------------------------------*/
+#content{
+    width: 1200px;
+    height:auto;
+    position: relative;
+    margin: 0 auto;
+}
+.left{
+    width: 800px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: left;
+}
+.position-details,.boss{
+    padding: 10px 20px;
+    background: white;
+    width:760px;
+    margin-top: 20px;
+    height: auto;
+}
+.left h1{
+    color: #019c93;
+    width: 100%;
+    font-size: 18px;
+    /*color: #333;*/
+    font-weight:500;
+    line-height: 30px;
+    border-bottom:1px solid #A5A5AF ;
+}
+article{
+    margin-top: 10px;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: 30px;
+    text-indent: 2em;
+}
+.boss .picture{
+    float: left;
+    margin: 20px 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #A5A5AF;
+}
+.boss{
+    height: 120px;
+}
+.boss .boss-name{
+    float: left;
+    margin-top: 40px;
+}
+.boss .phone{
+    width: 200px;
+    float: right;
+    margin: 40px;
+}
+    /*--------------------------------right---------------------------------------------*/
+.right{
+    width: 380px;
+    height: auto;
+    margin-top: 20px;
+    float: left;
+}
+.gongsi,.company-profile{
+    margin-bottom: 20px;
+    width: 340px;
+    height: auto;
+    padding: 10px 20px;
+    background: white;
+}
+.right h1{
+    width: 100%;
+    line-height: 40px;
+    color: #333;
+    font-size: 18px;
+    font-family: 黑体;
+    text-align: left;
+}
+.gongsi p{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+.gongsi p i{
+    color: #57bc90;
+    float: left;
+}
+.gongsi p a{
+    margin-left: 10px;
+    width: 200px;
+    float: left;
+    color: #333333;
+    line-height: 100%;
+    text-decoration: none;
+    font-size: 14px;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.gongsi p a:hover{
+    color: #f57900;
+}
+/*-------------------------------------------flex------------------------------------------------------*/
+#flex{
+    width: 100%;
+    background: #F3F6F5;
+    position: fixed;
+    z-index: 20;
+    height: 80px;
+    background: rgba(243,246,245,0.8);
+    display: none;
+}
+.flex{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.flex p{
+    width: 800px;
+    height: 100%;
+    line-height: 80px;
+    font-size: 20px;
+    float: left;
+    text-indent: 2em;
+}
+.flex p span{
+    height: 100%;
+    line-height: 80px;
+    font-size: 20px;
+}
+.flex p .zhiye{
+    color: #017c73;
+}
+.flex p .qian{
+    color: #FF5C00;
+}
+.flex .collect{
+    width: 150px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #017c73;
+    border-radius: 5px;
+    background: #F3F6F5;
+    cursor: pointer;
+    margin: 20px 10px;
+    color: #017c73;
+}
+.flex .push{
+    cursor: pointer;
+    margin: 20px 10px;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    background: #017c73;
+    border: 1px solid #017c73;
+}
+.flex .push a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.flex  div:hover{
+    background: #019c93;
+    color: white;
+}
+
+/* -------------------------收藏------------------------------ */
+.love{
+    width: 100px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 10px auto;
+}
+.love .a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.love .love-a{
+    text-decoration: none;
+    color: #FF5C00;
+}
+.love a:hover{
+    color: #FF5C00;
+}

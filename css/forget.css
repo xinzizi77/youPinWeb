@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.bg1{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #57BC90;
+    z-index: -1;
+}
+.bg2{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -1;
+    background: #F8F9FC;
+}
+.mainbox{
+    width: 45rem;
+    background: rgba(255, 255, 255, 1);
+    margin:2rem auto;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #dce1e6;
+}
+.logo{
+    width: 16rem;
+    height: 8rem;
+    background: url(../images/logo1.png);
+    background-size: 100% 100%;
+    margin:8rem 0 0 32rem;
+}
+.mainbox .top{
+    height: 6rem;
+    line-height: 6rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    color: #f57900;
+}
+.mainbox .top span a{
+    display: inline-block;
+    float: right;
+    color: #57BC90;
+}
+span{
+    font-size: 1.4rem;
+}
+.mainbox .top span a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #f57900;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #77c9d4;
+}
+.forget{
+    text-align: center;
+    display: block;    
+}
+.title{
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    color: #57BC90;
+    font-size: 2rem;
+    background: #fff;
+    letter-spacing: 0.5rem;
+}
+input{
+    outline: none;
+}
+input[name="email"]{
+    width:36rem;
+    height: 4rem;
+    border: 0;
+    font-size:1.6rem;
+    background:rgba(255, 255, 255, 0); 
+    border-bottom:0.1rem solid #e0dede;
+    margin-top:1.5rem;
+} 
+.forget input[type="submit"]{
+    width: 36rem;
+    height: 4rem;
+    background: #57BC90;
+    border:0;
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 1.6rem;
+    letter-spacing: 0.5rem;
+    cursor: pointer; 
+}
+button:hover{
+    background: #f57900;
+}
+.reset{
+    text-align: center;
+    display: none; 
+}
+.yanzhen{
+    width:36rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    border-bottom:0.1rem solid #e0dede;    
+}
+.yanzhen input{
+    width:28rem;
+    height: 4rem;
+    border: 0;
+    font-size:1.6rem;
+    background:rgba(255, 255, 255, 0);
+}
+.yanzhen img,.yanzhen button{
+    width: 8rem;
+    height: 3.6rem;
+    display:inline-block;
+    float: right;
+}
+.yanzhen button{
+    background: #57BC90;
+    border: 0;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+}
+.yanzhen button:hover{
+    cursor: pointer;
+    outline: none;
+    background: #f57900;
+}
+.reset p{
+    text-align: left;
+    font-size: 1.4rem;
+    color: red;
+    padding-left: 5rem;
+    display: none;
+}
+.reset input[name="kuang"]{
+    width:36rem;
+    height: 4rem;
+    border: 0;
+    font-size:1.6rem;
+    background:rgba(255, 255, 255, 0); 
+    border-bottom:0.1rem solid #e0dede;
+    margin:1.5rem 0;
+} 
+.reset input[type="submit"]{
+    width: 36rem;
+    height: 4rem;
+    background: #57BC90;
+    border:0;
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 1.6rem;
+    letter-spacing: 0.5rem;
+    cursor: pointer; 
+}
+.apply{
+    margin-bottom: 2rem;
+    width: 100%;
+    padding-left: 2rem;
+}
+.apply .text1{
+    height: 1.5rem;
+    color: #57BC90;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.apply p{
+    padding-left: 3rem;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 1.4rem;
+}
+.apply input[type='text']{
+    width:21rem;
+    height: 1.5rem;
+    border: 0;
+    font-size:1.6rem;
+    background:rgba(255, 255, 255, 0); 
+    border-bottom:0.1rem solid #e0dede;
+    margin:1.5rem 1rem;
+    padding-left: 1rem;
+}
+.apply input[type='radio']{
+    width: 2rem;
+    height: 2rem;
+    margin:0.5rem 1rem 0 2rem;
+}
+.apply input[type='date']{
+    margin-left: 1rem;
+    width:21rem;
+    height: 2rem;
+}
+ .button button{
+    margin-left: 27rem;
+    /* float: right; */
+    width: 7rem;
+    height: 3rem;
+    background: #57BC90;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border-radius: 0.3rem;
+    margin-bottom: 2rem;
+}
+font{
+    font-size: 1.6rem;
+}
+@media only screen and (max-width:480px){
+    html{
+        font-size: 59.5%;
+    }
+    .logo{
+        margin:0 auto;
+        margin-top: 7rem;
+    }
+    .mainbox{
+        width: 40rem;
+    }
+}

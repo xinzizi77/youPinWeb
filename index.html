@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+        <title>优聘网</title>
+        <link rel="shortcut Icon" href="images/logo7.png">
+        <link rel="stylesheet" href="css/header.css?1.0">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/index1.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div id="header">
+            <div class="head">
+            <a href="index.html"><img src="images/logo.png"></a>
+                <ul class="less">
+                    <li><a class="login" href="login_reg.html">登录</a></li>
+                    <li><a class="reg" href="login_reg.html?reg=2">注册</a></li>
+                </ul>
+                <ul class="more">
+                    <li><a class="more-a fu" href="javascript:void(0);">发布信息</a></li>
+                    <li><a class="more-a"  href="person_collect.html">个人中心</a></li>
+                    <li><a class="more-a" id="name"  href="javascript:void(0);">昵称</a></li>
+                    <li><a class="more-a exit" href="javascript:void(0);">退出</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="fabu">
+            <div class="fabu-bg">
+                <i class="fa fa-times fa-fw"></i>
+                <h1>发 布 信 息</h1>
+                <a href="person_job.html">
+                    <input type="button" value="个人简历">
+                </a>
+                <a href="person_zhao.html">
+                    <input type="button" value="企业招聘">
+                </a>
+            </div>
+        </div>
+        <div id="concent">
+            <div id="top"></div>
+            <div class="down">
+                <div class="left">
+                    <h1>优选职位</h1>
+                    <ul>
+                        <li>
+                            <p>
+                                <strong>餐饮</strong>
+                                <a href="search.html?do=服务员">服务员</a>/
+                                <a href="search.html?do=洗碗工">洗碗工</a>/
+                                <a href="search.html?do=传菜员">传菜员</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>车工/铣工</strong>
+                                <a href="search.html?do=普通铣工">普通铣工</a>/
+                                <a href="search.html?do=数控车工">数控车工</a>/
+                                <a href="search.html?do=镗工">镗工</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>普工/技工</strong>
+                                <a href="search.html?do=家电清洗工程师">家电清洗工程师</a>/
+                                <a href="search.html?do=电气工程师">电气工程师</a>
+                                <!-- <a href="search.html?do=普工">普工</a> -->
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>仓储/物流</strong>
+                                <a href="search.html?do=物流仓储包食宿">物流仓储包食宿</a>/
+                                <a href="search.html?do=物流仓储">物流仓储</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>保洁/安保</strong>
+                                <a href="search.html?do=安保人员">安保人员</a>/
+                                <a href="search.html?do=诚聘特勤安保人员">诚聘特勤安保人员</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>客服</strong>
+                                <a href="search.html?do=电话客服">电话客服</a>/
+                                <a href="search.html?do=客服助理">客服助理</a>
+                            </p>
+                        </li>
+                    </ul>
+                    <h1>优惠农货</h1>
+                    <ul>
+                        <li>
+                            <p>
+                                <strong>水果</strong>
+                                <a href="search.html?product=true&do=苹果">苹果</a>/
+                                <a href="search.html?product=true&do=葡萄">葡萄</a>/
+                                <a href="search.html?product=true&do=草莓">草莓</a>/
+                                <a href="search.html?product=true&do=芒果">芒果</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>蔬菜</strong>
+                                <a href="search.html?product=true&do=豆芽">豆芽</a>/
+                                <a href="search.html?product=true&do=茄子">茄子</a>/
+                                <a href="search.html?product=true&do=西红柿">西红柿</a>/
+                                <a href="search.html?product=true&do=大蒜">大蒜</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>畜牧</strong>
+                                <a href="search.html?product=true&do=鸡">鸡</a>/
+                                <a href="search.html?product=true&do=鸭">鸭</a>/
+                                <a href="search.html?product=true&do=兔子">兔子</a>/
+                                <a href="search.html?product=true&do=狗">狗</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <div class="search">
+                        <div class="city">
+                            <input type="button" id='chengshi' value=''>
+                            <i class="fa fa-angle-down fa-lg"></i> 
+                        </div>
+                        <form action="search.html">
+                            <input class="search-box" type="text" placeholder="搜搜职位" value="" name="do">
+                            <input id="search" class="search-button" type="submit" value="搜索">
+                        </form>
+                    </div>
+                    <div class="carousel-content">
+                        <ul class="carousel">
+                            <li>
+                                <a href="search.html?type=1">
+                                    <p>餐饮</p>
+                                    <div class="img-bg"></div>                                    
+                                    <img src="images/eat.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="search.html?type=2">
+                                    <p>车工/铣工</p>
+                                    <div class="img-bg"></div>                                    
+                                    <img src="images/car.jpg">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="search.html?type=3">
+                                    <p>普工/技工</p>
+                                    <div class="img-bg"></div>                                    
+                                    <img src="images/clean.jpg">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="search.html?type=4">
+                                    <p>仓储/物流</p>
+                                    <div class="img-bg"></div>                                    
+                                    <img src="images/timg2.jpg">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="search.html?type=5">
+                                    <p>保洁/安保</p>
+                                    <div class="img-bg"></div>                                    
+                                    <img src="images/funny2.jpg">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="search.html?type=6">
+                                    <p>客服</p>
+                                    <div class="img-bg"></div>                                    
+                                    <img src="images/kefu3.jpg">
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="img-index"></ul>
+                        <div class="carousel-prev"><img src="images/left_btn1.png"></div>
+                        <div class="carousel-next"><img src="images/right_btn1.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1>为您推荐</h1>        
+        <div class="tuijian">
+            <div class="job-box">
+                <h2><a href="search-main.html?code_id=10687">5k数控车工</a></h2>
+                <p>长沙县北山镇石常村委旁</p>
+                <em>3000-5000元/月</em>
+                <h3>湖南省长沙市</h3>                
+                <p class="weal">包吃  包住  有发展空间  供食宿，待遇优  企业发展前景好</p>
+                <button><a href="search-main.html?code_id=10687">更多资讯</a></button>
+            </div>
+            <div class="job-box">
+                <h2><a href="search-main.html?code_id=10657">包住3K到6K仓库分拣员</a></h2>
+                <p>长沙星沙尚一物流附近</p>
+                <em>3000-6000元/月</em>
+                <h3>湖南省长沙市星沙</h3>                
+                <p class="weal">包吃  包住  饭补  加班补助  生日补贴  满六个月买五险  年底奖金</p>
+                <button><a href="search-main.html?code_id=10657">更多资讯</a></button>
+            </div>
+            <div class="job-box">
+                <h2><a href="search-main.html?code_id=10662">斯柯达钣金中工</a></h2>
+                <p>长沙岳麓含浦大道与云栖路交汇处九城德众斯柯达4S店</p>
+                <em>3000-5000元/月</em>
+                <h3>湖南省长沙市岳麓区含浦</h3>                
+                <p class="weal">五险一金  包吃  包住  话补  交通补助  饭补  工龄工资  员工旅游</p>
+                <button><a href="search-main.html?code_id=10662">更多资讯</a></button>
+            </div>
+            <div class="job-box">
+                <h2><a href="search-main.html?code_id=10646">电控柜装配工</a></h2>
+                <p>长沙岳麓区桐梓坡西路229号麓谷国际工业园A6栋204室</p>
+                <em>3000-5000元/月</em>
+                <h3>湖南省长沙市岳麓区麓谷</h3>                
+                <p class="weal">包吃  包住  加班补助  购买五险</p>
+                <button><a href="search-main.html?code_id=10646">更多资讯</a></button>
+            </div>
+            <div class="job-box">
+                <h2><a href="search-main.html?code_id=10651">招聘电工</a></h2>
+                <p>麓谷国际工业园A7栋202号</p>
+                <em>薪资面议</em>
+                <h3>湖南省长沙市岳麓区</h3>                
+                <p class="weal">五险一金  包吃  加班补助  饭补</p>
+                <button><a href="search-main.html?code_id=10651">更多资讯</a></button>
+            </div>
+            <div class="job-box">
+                <h2><a href="search-main.html?code_id=26">茶楼服务员</a></h2>
+                <p>成都市武侯区二环路西一段永盛南街1号码头故事火锅店</p>
+                <em>2000-3000元/月</em>
+                <h3>成都 武侯 外双楠</h3>                
+                <p class="weal">包吃 包住 加班补助</p>
+                <button><a href="search-main.html?code_id=26">更多资讯</a></button>
+            </div>
+        </div>
+
+        <footer>
+            <div class="fLeft">
+                <div class="kuai">
+                    <p>产品服务</p>
+                    <ul>
+                        <li><a href="search.html?do=">职位搜索</a></li>
+                        <li><a href="search.html?product=true">农产品推荐</a></li>
+                    </ul>
+                </div>
+                <div class="kuai">
+                    <p>使用信息</p>
+                    <ul>
+                        <li><a href="yinsi.html">隐私政策</a></li>
+                        <li><a href="direct.html">防骗指南</a></li>
+                    </ul>
+                </div>
+                <div class="kuai">
+                    <p>联系我们</p>
+                    <ul>
+                        <li>湖南农业大学创新实验室</li>
+                        <li>联系QQ：695567646</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fRight">
+                <p>优聘网</p>
+                <textarea></textarea>
+                <button>反馈提交</button>
+            </div>
+        </footer>
+    </body>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+    <script type="text/javascript" src="js/carousel.js"></script>
+    <script src="js/header.js?1.0"></script>
+</html>
+

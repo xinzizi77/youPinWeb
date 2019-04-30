@@ -1,0 +1,627 @@
+html{
+    font-size: 62.5%;
+}
+.top{
+    background: #57BC90;
+    position: absolute;
+    top:6rem;
+    left: 0;
+    height: 11.5rem;
+    width: 100%;
+    z-index: 0;
+}
+.left{
+    width: 10%;
+    background: #fff;
+    position: absolute;
+    top:8.5rem;
+    left: 15%;
+    z-index: 1;
+    padding: 0.8%;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgb(226, 226, 226);
+}
+.pic img{
+    width:100%;
+    height: 100%; 
+}
+.right{
+    height: 50rem;
+    width: 48%;
+    position: absolute;
+    top:8.5rem;
+    left: 30%;
+    z-index: 1;
+    padding: 1.5rem 0;
+}
+.right .user{
+    margin-top: 4rem;
+    color: #fff;
+    font-size: 1.6rem;
+}
+.left .title{
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 1.8rem;
+    color: #000;
+    letter-spacing: 0.2rem;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    color: #888;
+    font-size: 1.4rem;
+    letter-spacing: 0.3rem;
+    cursor: pointer;    
+}
+.on{
+    background: rgba(88,188,144,0.5);
+    /* background: rgba(245, 121, 0, 0.5); */
+    color: #000;
+}
+.right .span{
+    margin: 2rem 0 1rem 0;
+    color: #f57900;
+    font-size: 1.6rem;
+    height: 5rem;
+    line-height: 5rem;
+    padding-left: 2rem;
+    border-bottom: 0.18rem solid rgba(88,188,144,0.5);    
+}
+.right .title{
+    background: rgba(88,188,144,0.5);
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 1.6rem;
+    padding-left: 1rem;
+}
+.right .title:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.right .price{
+    height: 5rem;
+    width: 50%;
+    line-height: 5rem;
+    color:#57BC90;
+    font-weight: bold;
+    font-size: 2rem;
+    float: left;
+}
+.right .company1,.right .welfare{
+    float: left;
+    height: 5rem;
+    line-height: 5rem;
+    color: #888;
+    font-size: 1.4rem;
+}
+.right .welfare{
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    padding-left: 1rem;
+    border-bottom: 0.18rem dotted rgba(88,188,144,0.5);
+}
+.right .box{
+    float: left;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+.right .mainBox1{
+    width: 20rem;
+    height: 6rem;
+    margin:10rem auto;
+    font-size: 1.8rem;
+    display: block;
+}
+.right .mainBox1 button,.right .mainBox2 button,.right .mainBox3 button,.right .mainBox4 button{
+    margin: 2.8rem 2rem;
+    width: 7rem;
+    height: 3rem;
+    background: #57BC90;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+.right .mainBox2,.right .mainBox4{
+    position: absolute;
+    top:12%;
+    left:32%;
+    z-index: 100;
+    background: #DBF7E5;
+    width: 27%;
+    padding: 1rem 1rem 2rem 7rem;
+    border-radius: 1rem;
+    display: none;
+}
+.right .mainBox3{
+    width: 100%;
+    /* padding: 20px 70px; */
+    display: none;
+}
+.right .mainBox2 .apply,.right .mainBox3 .apply{
+    margin-bottom: 2rem;
+    float: left;
+    width: 100%;
+}
+.right .mainBox2 .text1,.right .mainBox3 .text1{
+    height: 4rem;
+    line-height: 4rem;
+    color: #57bc90;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+.right .mainBox2 p,.right .mainBox3 p,.right .mainBox4 p{
+    padding-left: 3rem;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 1.4rem;
+}
+.right .mainBox2 p input,.right .mainBox4 p input{
+    width: 60%;
+    height: 3rem;
+    margin-left: 3%;
+    padding-left: 1.5rem;
+    border-radius: 0.3rem;
+    border: 0;
+}
+.right .mainBox3 p input{
+    width: 60%;
+    height: 3rem;
+    margin-left: 1%;
+    padding-left: 1.5rem;
+    border-radius: 0.3rem;
+    border: 0;
+    color: #888;
+}
+.right .mainBox2 button,.right .mainBox3 button,.right .mainBox4 button{
+    margin: 2.8rem 35%;
+    width: 9.5rem;
+}
+#zhao{
+    width: 40%;
+}
+#zhao p{
+    margin-bottom: 1rem;
+}
+#zhao p input{
+    width: 32.5rem;
+    height: 3rem;
+    line-height: 3rem;
+}
+#zhao textarea{
+    width: 41rem;
+    height: 17rem;
+    margin-left: 2rem;
+    padding-left: 0.5rem;
+    margin-top: 1rem;
+    float: left;
+    font-size: 1.8rem;
+    border: 0;
+}
+#des{
+    float: left;
+}
+.newInfor{
+    width: 80%;
+}
+.newInfor p{
+    width:80%;
+    font-size: 1.6rem;
+    float: left;
+}
+.newInfor .del{
+    width: 9%;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    background: #ABDDC7;
+    float: left;
+    cursor: pointer;
+    margin-top: 0.7rem;
+}
+.informa{
+    width: 100%;
+    padding: 1rem;
+}
+.informa p{
+    width: 100%;
+    height: 5rem;
+    line-height: 5rem;
+    float: left;
+    font-size: 1.4rem;
+}
+.informa .phot{
+    float: left;
+    margin-top: 1rem;
+    width: 50%;
+}
+.informa .phot p span{
+    display: inline-block;
+    width: 100%;
+    color: red;
+    font-size: 1.4rem;
+}
+.informa .phot img{
+    width: 15rem;
+    height: 15rem;
+}
+.informa .phot input[type="file"]{
+    width: 20rem;
+    display: block;
+    float: left;
+}
+.informa .phot input[type="submit"]{
+    width: 5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin-left: 2rem;
+}
+.informa input{
+    width: 30rem;
+    height:2.5rem;
+}
+#phoLeft{
+    width: 11%;
+}
+.informa input[type='radio']{
+    width: 2rem;
+    height: 2rem;
+    margin:0.5rem 1rem 0 2rem;
+}
+.informa input[type='date']{
+    margin-left: 1rem;
+}
+.informa p button{
+    width: 8rem;
+    height: 2.5rem;
+    background: #57BC90;
+    color: #fff;
+    border: 0;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-left: 60%;
+}
+.company{
+    width: 100%;
+    padding: 1rem 2rem;
+}
+.company p{
+    width: 100%;
+    height: 5rem;
+    line-height: 5rem;
+    padding-left: 1rem;
+    color: #000;
+    font-size: 1.4rem;
+}
+.company p input{
+    width: 30rem;
+    height: 2.5rem;
+    margin-left: 2rem;
+    padding-left: 0.5rem;
+}
+#left_com{
+    float: left;
+    width: 7.2rem;
+}
+.company textarea{
+    width: 35rem;
+    height: 20rem;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    padding-left: 0.5rem;
+}
+.company p input[name="address"]{
+    width: 13rem;
+    height: 2rem;
+    margin: 0 1rem 0 2rem;
+}
+.company p button{
+    width: 8rem;
+    height: 3.5rem;
+    border: 0;
+    background: #57BC90;
+    border-radius: 0.5rem;
+    color: #fff;
+    margin-left:50%;
+    margin-top: 2rem;
+}
+box_pass{
+    width: 100%;
+    padding: 2rem;
+}
+.box_pass p{
+    width: 80%;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 1.4rem;
+}
+.box_pass p input{
+    margin-left: 2rem;
+    height: 3rem;
+    width: 30rem;
+}
+.box_pass p button{
+    width: 8rem;
+    height: 3rem;
+    margin-left: 50%;
+    border: 0;
+    border-radius: 0.5rem;
+    background: #57BC90;
+    color: #fff;
+    cursor: pointer;
+}
+footer{
+    width: 75%;
+    height: auto;
+    background: #f5f5f5;
+    position: absolute;
+    top:100%;
+    left: 0;
+    padding:2rem 10% 2rem 15%;
+}
+footer .fLeft{
+    float: left;
+    width: 72%;
+}
+footer .fRight{
+    float: left;
+    width: 23%;
+    margin-left: 5%;
+    /* text-align: right; */
+}
+footer .fRight textarea{
+    width: 68%;
+    height: 5rem;
+}
+footer .fRight button{
+    float: right;
+    width: 26%;
+    height: 3rem;
+    border: 0;
+    margin-top:2rem;
+    /* background: #f57900; */
+}
+footer .fRight button:hover{
+    cursor: pointer;
+}
+footer .kuai{
+    width: 33%;
+    float: left;
+}
+footer p{
+    font-size: 1.6rem;
+    height: 3rem;
+    color: rgb(68, 68, 68);
+}
+footer .fRight p{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(82, 81, 81);
+    /* letter-spacing: 1.4rem; */
+}
+footer ul li{
+    height: 2.5rem;
+    font-size: 1.2rem;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+}
+.right .box_pass span{
+    color: red;
+    display: none;
+}
+.mainBox2 span,.mainBox4 span{
+    display: block;
+    width: 5%;
+    float: right;
+    color: #888;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.right .mainBox2 input[type="radio"]{
+    width: 2.5rem;
+    height: 1.5rem;
+    margin-right: 0.8rem;
+}
+.right .mainBox3 .newInfor p{
+    cursor: pointer;
+}
+@media only screen and (max-width:800px){
+    html{
+        font-size: 59.5%;
+    }
+    .logo{
+        margin-left: 8%;
+    }
+    #header button{
+        margin:1.8rem 2rem;
+    }
+    .left{
+        width: 14%;
+        left: 10%;
+    }
+    .left .title{
+        letter-spacing: 0rem;
+        font-size: 1.6rem;
+    }
+    .right{
+        width: 70%;
+    }
+    .newInfor{
+        width: 98%;
+    }
+    .right .mainBox3 p{
+        padding-left: 2rem;
+    }
+    .right .mainBox2{
+        width: 80%;
+        left: 6%;
+        padding: 1rem 2rem 2rem 2rem;
+    }
+    .right .mainBox2 p input{
+        margin-left: 4%;
+    }
+    #zhao{
+        width: 80%;
+    }
+    #zhao p input{
+        width: 21.5rem;
+    }
+    #zhao textarea{
+        width: 28rem;
+        height: 12rem;
+    }
+    .informa input{
+        width: 24rem;
+    }
+    .informa .phot{
+        width: 77%;
+    }
+    .informa .phot img{
+        width: 12rem;
+        height: 12rem;
+    }
+    .informa p{
+    font-size: 1rem;        
+    }
+    #phoLeft{
+        width: 13%;
+    }
+    .company p input{
+        width: 22rem;
+    }
+    .company textarea{
+        width: 22rem;
+        height: 14rem;
+    }
+    #left_com{
+        width: 5.4rem;
+    }
+    .company p input[name="address"]{
+        width: 7rem;
+    }
+    .box_pass p{
+        width: 94%;
+    }
+    .box_pass p input{
+        margin-left: 1rem;
+        width: 22rem;
+    }
+}
+@media only screen and (max-width:480px){
+    html{
+        font-size: 50%;
+    }
+    .logo{
+        margin-left: 4%;
+        width: 10.5rem;
+    }
+    .text{
+        margin-top:2.6rem;
+    }
+    #header button{
+        margin:1.8rem 0rem;
+        width:5.4rem;
+    }
+    .left{
+        width: 20%;
+        left: 4%;
+    }
+    #left_com{
+        width: 6.4rem;
+    }
+    #zhao textarea{
+        width: 22rem;
+        height: 10rem;
+    }
+    #phoLeft{
+        width: 18%;
+    }
+    .informa{
+        width: 97%;
+    }
+    .informa .phot{
+        width: 80%;
+    }
+    .informa .phot input[type="submit"]{
+        margin-left: 0rem;
+    }
+    .informa input{
+        width: 20rem;
+    }
+    .right{
+        width: 67%;
+    }
+    .informa .phot input[type="file"]{
+        width: 18rem;
+    }
+    .informa .phot input[type="submit"]{
+        width: 3.6rem;
+    }
+    .right .mainBox3 p{
+        padding-left: 0;
+    }
+    #zhao p input{
+        width: 19rem;
+    }
+    .newInfor .del{
+        width: 14%;
+    }
+    .company{
+        padding:1rem 0;
+    }
+    .company p{
+        font-size: 1.4rem;
+    }
+    .company p input{
+        width: 16rem;
+        font-size: 1.4rem;
+    }
+    .company textarea{
+        width: 17rem;
+        height: 9rem;
+        padding-top: 1rem;
+    }
+    .company p input[name="address"]{
+        width: 4rem;
+    }
+    .box_pass p input{
+        width: 18rem;
+        height: 2.4rem;
+    }
+    footer{
+        float: left;
+        padding:2rem 4% 2rem 5%;
+        width: 91%;
+    }
+    footer p{
+        font-size: 1.4rem;
+        height: 1.8rem;
+    }
+    footer ul li{
+        height: 1.5rem;
+    }
+    footer .fRight{
+        display: none;
+    }
+    footer .fLeft{
+        width: 100%;
+    }
+    footer .kuai{
+        width: 30%;
+    }
+    #many{
+        width: 40%;
+    }
+}

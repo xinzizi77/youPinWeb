@@ -1,0 +1,72 @@
+.s1 .slide:nth-of-type(1){
+				
+				background: url(../images/about.png) no-repeat 50% 50% #d0ecd5;
+			}		
+			.s3 .slide:nth-of-type(1){
+				background: url(../images/contact1.png) no-repeat 50% 50% #87c4e0;
+				background-size: 45% 60%;
+			}
+			
+			h3{
+				margin-left: 7%;
+				font-size: 20px;
+				transform: translateY(-200%);
+				opacity: 0;
+				transition: 1.5s 0.7s;
+				color:rgb(0, 0, 0);
+				width: 86%;
+			}
+			p{
+				text-indent:2em;
+				line-height: 50px;
+			}
+			.s1.active h3,.s2.active h3,.s3.active h3,.s4.active h3{
+				transform: translateY(0);
+				opacity: 1;
+			}
+			.s3 h3{
+				margin-left: 30%;
+				color: #fff;
+			}
+			.top1{
+				height: 0;
+				padding-left: 5%;
+				font-size: 25px;
+				margin-bottom: 5%;
+				background: #d0ecd5;
+				color: rgb(3, 3, 3);				
+			}
+			.top2{
+				height: 0;
+				padding-left: 5%;
+				font-size: 25px;
+				margin-bottom: 5%;
+				background: #87c4e0;
+				color: rgb(255, 255, 255);
+				margin-bottom: 6%;
+			}
+			@media only screen and (max-width:800px){
+				h3{
+					font-size: 14px;
+				}
+				.top1{
+					font-size: 26px;
+					margin-bottom: 10%;
+				}
+				p{
+					line-height: 40px;
+				}
+			}
+			@media only screen and (max-width:480px){
+				h3{
+					font-size: 11px;
+				}
+				.top1{
+					font-size: 26px;
+					margin-bottom: 10%;
+				}
+				p{
+					line-height: 40px;
+				}
+			}
+

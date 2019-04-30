@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>填写个人信息</title>
+    <link rel="shortcut Icon" href="images/logo7.png">
+    <link rel="stylesheet" href="css/forget.css?4.0">
+</head>
+<body>
+    <div class="logo"></div>
+    <div class="mainbox">
+        <div class="top">
+            <font>填写信息，系统将自动给您匹配</font>
+            <span><a href="index.html">跳过</a></span>         
+        </div>
+            <div class="apply">
+                <div class="text1">求职信息</div>
+                <p>职位类别
+                    <input type="text" name="type" autocomplete="off"> </p>
+                <p>工作地点
+                    <input type="text" name="location" autocomplete="off">
+                </p>
+                <p>期待薪资
+                    <input type="text" name="price" autocomplete="off">
+                </p>
+            </div>
+            <div class="apply">
+                <div class="text1">基本信息</div>
+                <p>&nbsp;姓&nbsp;&nbsp; &nbsp;名&nbsp;
+                    <input type="text" name="name" autocomplete="off"> </p>
+                <p>&nbsp;性&nbsp;&nbsp; &nbsp;别&nbsp;
+                    <input type="radio" name="sex" value="男" checked="checked">男
+                    <input type="radio" name="sex" value="女">女
+                </p>
+                <p>出生年份
+                    <input type="date" name="date">
+                </p>
+                <p>手机号码
+                    <input type="text" name="number" autocomplete="off">
+                </p>
+            </div>
+            <div class="button">
+                <button>完成</button>
+            </div>
+    </div>
+    <div class="bg1"></div>
+    <div class="bg2"></div>
+    <script src="js/jquery.js"></script>
+    <script src="js/person_job.js"></script>
+</body>
+</html>
